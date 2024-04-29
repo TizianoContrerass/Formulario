@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <main>
+        <!--Formulario-->
+        <form action="" method="post"><!-- definimos el destino donde iran los datos del formulario-->
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" id="Nombre">
+            </div>
+
+            <div>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido" id="Apellido">
+            </div>
+            <div>
+                <label for="Clave">Contraseña</label>
+                <input type="text" name="Password" id="Clave">
+            </div>
+            <div>
+                <label for="Archivo">Archivo</label>
+                <input type="file" name="Archivo" id="Archivo">
+            </div>
+            <div>
+                <label for="Comentario">Ingresar Comentarios</label>
+                <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="Enviar">Enviar</label>
+                <input type="submit" value="Comentar">
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
